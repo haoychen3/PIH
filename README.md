@@ -10,14 +10,17 @@
 ## Usage
 
 ### Model Training
-Training one model using one secret-cover image pair, run: 
+To train one model using one secret-cover image pair: 
 ```bash
 python train_model.py
 ```
 
-2. Training 200 models using 200 secret-cover image pairs, run: ``python train_multiple_models.py``
+To training 200 models using 200 secret-cover image pairs, run: 
+```bash
+python train_multiple_models.py
+```
 
-3. The trained models will be saved in ``./TrainedModels`` directory.
+The trained models will be saved in ``./TrainedModels`` directory.
 
 ### Model Evaluation
 1. An example of trained model is in ``./test-model`` directory.
