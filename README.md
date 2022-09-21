@@ -5,7 +5,7 @@
 
 2. pytorch 1.1.0
 
-3. pip install -r requirements.txt
+3. ``pip install -r requirements.txt``
 
 ### Model Training
 1. Training one model using one secret-cover image pair, run: ``python train_model.py``
