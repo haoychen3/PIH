@@ -7,7 +7,7 @@
 
 * ``pip install -r requirements.txt``
 
-##Usage
+## Usage
 
 ### Model Training
 1. Training one model using one secret-cover image pair, run: ``python train_model.py``
