@@ -1,11 +1,13 @@
 # Probabilistic Image Hiding
 
-### Requirements
+## Requirements
 * python 3.7
 
 * pytorch 1.1.0
 
 * ``pip install -r requirements.txt``
+
+##Usage
 
 ### Model Training
 1. Training one model using one secret-cover image pair, run: ``python train_model.py``
