@@ -58,6 +58,9 @@ python ./HidingMultipleImages/Hiding4Images/train_hiding4images.py
 * The resulting models will be saved in ``./HidingMultipleImages/HidingxImages/TrainedModels`` directory, where "x" is the number of hidden secret images.
 
 ### Reference SinGAN without Hiding Image
-* To train reference SinGAN without hiding any secret image, run: ``python ./NotHidingImage/train_original.py``
+* To train reference SinGAN without hiding any secret image: 
+```bash
+python ./NotHidingImage/train_original.py
+```
 
 * The trained reference models will be saved in ``./NotHidingImage/TrainedModels`` directory.
