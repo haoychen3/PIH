@@ -9,29 +9,35 @@
 
 ## Usage
 
-### Model Training
+### Training
 To train one model using one secret-cover image pair: 
 ```bash
 python train_model.py
 ```
 
-To training 200 models using 200 secret-cover image pairs, run: 
+To training 200 models using 200 secret-cover image pairs: 
 ```bash
 python train_multiple_models.py
 ```
 
 The trained models will be saved in ``./TrainedModels`` directory.
 
-### Model Evaluation
-1. An example of trained model is in ``./test-model`` directory.
+### Evaluation
+An example of trained model is in ``./test-model`` directory.
 
-2. To evaluate the trained model by random sampling, run: ``python evaluate_model_random_sampling.py``
+To evaluate the trained model by random sampling: 
+```bash
+python evaluate_model_random_sampling.py
+```
 
-3. To evaluate the trained model by extracting secret image, run: ``python evaluate_model_secret_extraction.py``
+To evaluate the trained model by extracting secret image: 
+```bash
+python evaluate_model_secret_extraction.py
+```
 
-4. The randomly sampled images and the extracted secret image will be saved in ``./test-model/Evaluation`` directory.
+The randomly sampled images and the extracted secret image will be saved in ``./test-model/Evaluation`` directory.
 
-5. The codes for calculating PSNR, SSIM, DISTS, SIFID, DS and KLD are provided in ``./Evaluation`` directory.
+The codes for calculating PSNR, SSIM, DISTS, SIFID, DS and KLD are provided in ``./Evaluation`` directory.
 
 ### Hiding Multiple Images
 1. To hide 2 secret images, run: ``python ./HidingMultipleImages/Hiding2Images/train_hiding2images.py``
