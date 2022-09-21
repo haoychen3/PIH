@@ -13,11 +13,15 @@
 3. The trained models will be saved in ``./TrainedModels`` directory.
 
 ### Model Evaluation
-1. An example of trained model is already in "./test-model" directory.
-2. To evaluate the trained model by random sampling, run: python evaluate_model_random_sampling.py
-3. To evaluate the trained model by extracting secret image, run: python evaluate_model_secret_extraction.py
-4. The randomly sampled images and the extracted secret image will be saved in "./test-model/Evaluation" directory.
-5. The codes for calculating PSNR, SSIM, DISTS, SIFID, DS and KLD are provided in "./Evaluation" directory.
+1. An example of trained model is in ``./test-model`` directory.
+
+2. To evaluate the trained model by random sampling, run: ``python evaluate_model_random_sampling.py``
+
+3. To evaluate the trained model by extracting secret image, run: ``python evaluate_model_secret_extraction.py``
+
+4. The randomly sampled images and the extracted secret image will be saved in ``./test-model/Evaluation`` directory.
+
+5. The codes for calculating PSNR, SSIM, DISTS, SIFID, DS and KLD are provided in ``./Evaluation`` directory.
 
 ### Hiding Multiple Images
 1. To hide 2 secret images, run: python ./HidingMultipleImages/Hiding2Images/train_hiding2images.py
