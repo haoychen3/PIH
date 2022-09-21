@@ -1,1 +1,1 @@
-# PIH
+# Probabilistic Image Hiding
