@@ -1,0 +1,35 @@
+train_mode	-	generation
+activation	-	lrelu
+ker_size	-	3
+train_stages	-	6
+padd_size	-	0
+niter	-	2000
+start_scale	-	0
+gpu	-	0
+max_size	-	2040
+Dsteps	-	3
+lrelu_alpha	-	0.05
+model_dir	-	
+lr_scale	-	0.1
+noise_amp	-	0.1
+alpha	-	10
+Gsteps	-	3
+device	-	cuda:0
+num_layer	-	3
+train_depth	-	3
+lambda_grad	-	0.1
+lr_d	-	0.0005
+nfc	-	64
+lr_g	-	0.0005
+noise_amp_init	-	0.1
+not_cuda	-	0
+min_size	-	25
+batch_norm	-	True
+nc_im	-	3
+input_name	-	Images\secret\01.jpg
+manualSeed	-	1765
+fine_tune	-	0
+naive_img	-	
+timestamp	-	2022_05_05_20_32_35
+gamma	-	0.1
+beta1	-	0.5
