@@ -2,7 +2,9 @@
 
 ### Installation
 1. python 3.7
+
 2. pytorch 1.1.0
+
 3. pip install -r requirements.txt
 
 ### Model Training
