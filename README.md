@@ -10,7 +10,10 @@
 ## Usage
 
 ### Model Training
-1. Training one model using one secret-cover image pair, run: ``python train_model.py``
+Training one model using one secret-cover image pair, run: 
+```bash
+python train_model.py
+```
 
 2. Training 200 models using 200 secret-cover image pairs, run: ``python train_multiple_models.py``
 
