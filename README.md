@@ -26,11 +26,15 @@
 5. The codes for calculating PSNR, SSIM, DISTS, SIFID, DS and KLD are provided in ``./Evaluation`` directory.
 
 ### Hiding Multiple Images
-1. To hide 2 secret images, run: python ./HidingMultipleImages/Hiding2Images/train_hiding2images.py
-2. To hide 3 secret images, run: python ./HidingMultipleImages/Hiding3Images/train_hiding3images.py
-3. To hide 4 secret images, run: python ./HidingMultipleImages/Hiding4Images/train_hiding4images.py
-4. The resulting models will be saved in "./HidingMultipleImages/HidingxImages/TrainedModels" directory, where "x" is the number of hidden secret images.
+1. To hide 2 secret images, run: ``python ./HidingMultipleImages/Hiding2Images/train_hiding2images.py``
+
+2. To hide 3 secret images, run: ``python ./HidingMultipleImages/Hiding3Images/train_hiding3images.py``
+
+3. To hide 4 secret images, run: ``python ./HidingMultipleImages/Hiding4Images/train_hiding4images.py``
+
+4. The resulting models will be saved in ``./HidingMultipleImages/HidingxImages/TrainedModels`` directory, where "x" is the number of hidden secret images.
 
 ### Reference SinGAN without Hiding Image
-1. To train reference SinGAN without hiding any secret image, run: python ./NotHidingImage/train_original.py
-2. The trained models will be saved in "./NotHidingImage/TrainedModels" directory.
+1. To train reference SinGAN without hiding any secret image, run: ``python ./NotHidingImage/train_original.py``
+
+2. The trained reference models will be saved in ``./NotHidingImage/TrainedModels`` directory.
