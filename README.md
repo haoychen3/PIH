@@ -14,8 +14,6 @@ Data hiding with deep neural networks (DNNs) has experienced impressive successe
 
 * ``pip install -r requirements.txt``
 
-## Dataset
-
 ## Training
 * To train one model using one secret-cover image pair: 
 ```bash
