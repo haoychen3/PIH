@@ -1,4 +1,4 @@
-# Probabilistic Image Hiding
+# Hiding Images in Deep Probabilistic Models
 
 ## Requirements
 * python 3.7
