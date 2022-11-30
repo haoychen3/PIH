@@ -82,3 +82,4 @@ year={2022}
 }
 ```
 ## Acknowledgment
+The authors would like to thank Tobias Hinz for his implementation of ["Improved Techniques for Training Single-Image GANs"](https://github.com/tohinz/ConSinGAN) in PyTorch.
