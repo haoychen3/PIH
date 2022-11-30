@@ -1,6 +1,6 @@
 # Hiding Images in Deep Probabilistic Models
 
-	![alt text](image.jpg)
+![alt text](./Images/fig.pdf)
 
 ## Introduction
 This repository contains the reference code for the paper [Hiding Images in Deep Probabilistic Models](https://arxiv.org/abs/2210.02257), Haoyu Chen, Linqi Song, Zhenxing Qian, Xinpeng Zhang, Kede Ma, Advances in Neural Information Processing Systems, 2022.
