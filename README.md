@@ -45,17 +45,17 @@ python evaluate_model_secret_extraction.py
 * The codes for calculating PSNR, SSIM, DISTS, SIFID, DS and KLD are provided in ``./Evaluation`` directory.
 
 ## Hiding Multiple Images
-* To hide 2 secret images: 
+* To hide two secret images: 
 ```bash
 python ./HidingMultipleImages/Hiding2Images/train_hiding2images.py
 ```
 
-* To hide 3 secret images: 
+* To hide three secret images: 
 ```bash
 python ./HidingMultipleImages/Hiding3Images/train_hiding3images.py
 ```
 
-* To hide 4 secret images: 
+* To hide four secret images: 
 ```bash
 python ./HidingMultipleImages/Hiding4Images/train_hiding4images.py
 ```
