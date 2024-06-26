@@ -19,14 +19,14 @@ def make_dir(path):
 
 def generate_samples(netG, reals_shapes, noise_amp, n=25):
 
-    dir2save_parent = os.path.join(dir2save, "gen_samples")
+    dir2save_ = os.path.join(dir2save, "gen_samples")
 
-    make_dir(dir2save_parent)
+    make_dir(dir2save_)
 
     for idx in range(n):
         noise = functions.sample_random_noise(opt.train_stages - 1, reals_shapes, opt)
         sample = netG(noise, reals_shapes, noise_amp)
-        functions.save_image('{}/gen_sample_{}.jpg'.format(dir2save_parent, idx), sample.detach())
+        functions.save_image('{}/gen_sample_{}.png'.format(dir2save_, idx), sample.detach())
 
 
 if __name__ == '__main__':
