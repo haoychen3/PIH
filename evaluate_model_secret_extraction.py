@@ -20,18 +20,8 @@ def make_dir(path):
 def generate_samples(netG, reals_shapes, noise_amp, reconstruct=False, n=25):
     if reconstruct:
         reconstruction = netG(fixed_noise, reals_shapes, noise_amp)
-        functions.save_image('{}/extracted_secret.jpg'.format(dir2save), reconstruction.detach())
+        functions.save_image('{}/extracted_secret.png'.format(dir2save), reconstruction.detach())
         return reconstruction
-
-    dir2save_parent = os.path.join(dir2save, "gen_samples")
-
-    make_dir(dir2save_parent)
-
-    for idx in range(n):
-        noise = functions.sample_random_noise(opt.train_stages - 1, reals_shapes, opt)
-        sample = netG(noise, reals_shapes, noise_amp)
-        functions.save_image('{}/gen_sample_{}.jpg'.format(dir2save_parent, idx), sample.detach())
-
 
 if __name__ == '__main__':
     parser = get_arguments()
